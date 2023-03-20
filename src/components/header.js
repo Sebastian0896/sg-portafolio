@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Header = () => {
     return(
-        <header className="bg-black w-screen p-4">
+        <header className="w-screen p-4 header">
             <div className="mx-auto w-full container flex justify-between items-center">
-                <h1 className="text-3xl font-bold w-1/4 text-center text-white">SRG</h1>
+                <h1 className="text-3xl font-bold w-1/4 text-center text-white">SGR</h1>
                 <nav className="w-2/3 flex justify-center items-center">
                     <ul>
                         <li>

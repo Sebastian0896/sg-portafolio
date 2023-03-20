@@ -5,15 +5,19 @@
 
 
 @layer components{
-    .about-section{
+   /*  .about-section{
       background: linear-gradient(180deg, hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 10%));
 
-    }
+    } */
     .skills-section{
-      background: linear-gradient(120deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%));
+      background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
     }
    .second-column{
     height: 100%;
+   }
+
+   .header{
+    background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
    }
 }
 
@@ -29,7 +33,7 @@
   li{
     @apply my-2;
   }
-  li:hover{
+  .skills-section .skills-container li:hover{
     cursor: pointer;
     text-decoration: line-through;
   }
