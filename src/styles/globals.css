@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-
 @layer components{
+  html{
+    font-family: 'Overpass', sans-serif;
+  }
    /*  .about-section{
       background: linear-gradient(180deg, hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 10%));
 
@@ -19,11 +22,14 @@
    .header{
     background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
    }
+   h4{
+    background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+   }
 }
 
 @layer base{
   h4{
-    @apply px-4 py-2 bg-black text-white rounded-tr-md rounded-tl-md;
+    @apply px-4 py-2 text-white rounded-tr-md rounded-tl-md;
   }
 
   ul{

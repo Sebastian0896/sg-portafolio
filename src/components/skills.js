@@ -6,7 +6,7 @@ const Skills = () => {
     const html5 = ["HTML", "CSS", "JAVASCRIPT"];
     const fronted = ["ReactJS", "NextJS", "Tailwindcss", "Bootstrap", "Bulma"];
     const backend = ["NodeJS", "ExpressJS", "MongoDB", "Mongoose"];
-    const tools = ["Git and GitHub"];
+    const tools = ["Git and GitHub", "Wordpress"];
 
     //html icons
     const html5Icons = ["html-48", "css3-48", "javascript-48"]
@@ -15,7 +15,7 @@ const Skills = () => {
     //Backend icons
     const backendIcons = ["node-js-48", "express-js-48", "mongodb-48", "mongoose-48"]
     //tools icons
-    const toolsIcons = ["git-48", "git-48", "git-48"]
+    const toolsIcons = ["git-48", "wordpress-48", "git-48"]
 
 
     return(
@@ -36,7 +36,7 @@ const Skills = () => {
                 </div>
                 <div className="md:w-1/4 flex flex-col justify-between items-center second-column sm:w-full xs:my-1 sm:my-1">
                     <div className="bg-white w-full h-auto md:my-8 xs:my-1 sm:my-1 rounded-md relative before:content-[''] before:border-2 before:border-cyan-700 before:w-full before:rounded-tl-md before:rounded-tr-md before:absolute before:left-0 before:right-0 shadow-md">
-                        <h4 className="px-4 py-2 bg-black text-white rounded-tr-md rounded-tl-md card-header">Frontend</h4>
+                        <h4 className="px-4 py-2 text-white rounded-tr-md rounded-tl-md card-header">Frontend</h4>
                         <div className="">
                             <ul className="px-8 list-disc marker:text-cyan-700">
                                 {
