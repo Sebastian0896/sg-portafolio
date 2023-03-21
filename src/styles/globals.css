@@ -13,18 +13,19 @@
 
     } */
     .skills-section{
-      background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+      /* background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%)); */
+    }
+    .header li a:hover{
+      text-decoration: line-through;
+      text-decoration-color: white;
     }
    .second-column{
     height: 100%;
    }
-
-   .header{
-    background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
-   }
    h4{
     background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));
    }
+
 }
 
 @layer base{
@@ -51,5 +52,9 @@
   }
   section h3{
     @apply text-3xl text-white font-bold p-4;
+  }
+
+  .nav{
+    @apply xs:bg-gray-900 opacity-100 xs:w-full sm:w-full md:w-2/3 md:relative md:h-0 absolute left-0 right-0 top-0 bottom-0 h-screen z-10;
   }
 }

@@ -19,9 +19,9 @@ const Skills = () => {
 
 
     return(
-        <section className="skills-section ">
-            <h3>Habilidades</h3>
-            <div className="skills-container p-6 flex justify-around items-center w-full xs:block sm:block md:flex">
+        <section className="skills-section bg-gray-900">
+            <h3 className="text-center">Habilidades</h3>
+            <div className="skills-container  p-6 flex justify-around items-center w-full xs:block sm:block md:flex">
                 <div className="bg-white md:w-1/4 sm:w-full  rounded-md relative before:content-[''] before:border-2 before:border-red-700 before:w-full before:rounded-tl-md before:rounded-tr-md before:absolute before:left-0 before:right-0 shadow-md">
                     <div className="h-48">
                         <h4 className="card-header">HTML5</h4>
