@@ -18,7 +18,7 @@ const Projects = () => {
                 }
                </ul>
               <div className="flex justify-center">
-                <button className="rounded-md bg-gray-900 w-[6rem] p-2 hover:bg-cyan-700 transition-colors"><a href="/proyectos" className="text-cyan-700 hover:text-white">Todos</a></button>
+                <button className="rounded-md bg-gray-900 w-[6rem] p-2 hover:bg-cyan-700 transition-colors"><Link href="/proyectos" className="text-cyan-700 hover:text-white">Todos</Link></button>
               </div>
             </div>
 
