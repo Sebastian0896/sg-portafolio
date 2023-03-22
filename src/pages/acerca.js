@@ -4,7 +4,7 @@ export default function Acerca(){
 
     return(
         <Layout title="Acerca">
-            <section className="acerca">
+            <section className="acerca h-screen">
                 <h3 className="text-cyan-700">Acerca de mi</h3>
                 <div className="rounded-md shadow-cyan-700 shadow-sm  p-8 my-4bg-white about w-full xs:w-full md:w-1/2 lg:w-1/2 xl:w-full 2xl:w-1/2">
                     <p className="text-justify text-lg">¡Hola! Mi nombre es <span className="font-bold text-cyan-700">Sebastián González R.</span> Soy un desarrollador web apasionado por la tecnología y la innovación. He estado trabajando en el campo de desarrollo web durante más de 3 años y disfruto creando experiencias de usuario únicas y atractivas.</p><br></br>
