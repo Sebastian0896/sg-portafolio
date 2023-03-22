@@ -4,9 +4,9 @@ import Layout from "@/components/layout";
 
 
 export default function Proyectos(){
-    const projects = ["Autoridad Portuaria Dominicana", "RDVIAL", "UCADE"]
-    const projectURL = ["https://portuaria.gob.do", "https://pwebrdvial.azurewebsites.net", "https://ucade.edu.do"]
-    const projectsIcon = ["wordpress-30", "wordpress-30", "wordpress-30"]
+    const projects = ["Autoridad Portuaria Dominicana", "RDVIAL", "UCADE", "CPP"]
+    const projectURL = ["https://portuaria.gob.do", "https://pwebrdvial.azurewebsites.net", "https://ucade.edu.do", "https://cpp.gob.do"]
+    const projectsIcon = ["wordpress-30", "wordpress-30", "wordpress-30", "wordpress-30"]
     return(
         <Layout title="Proyectos">
             <section className="proyectos">
