@@ -8,7 +8,7 @@ export default function Layout({title, children}){
     return(
         <>
             <Head>
-                <title>{title} | Portafolio</title>
+                <title>{title}</title>
                 <meta charSet="UTF-8" />
                 <meta name="description" content="Sebastián González Rodríguez" />
                 <meta name="keywords" content="portafolio, sebastián gonzález rodríguez, frontend, backend, tools, html5" />
