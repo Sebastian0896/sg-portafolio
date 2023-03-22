@@ -9,7 +9,7 @@ export default function Proyectos(){
     const projectsIcon = ["wordpress-30", "wordpress-30", "wordpress-30"]
     return(
         <Layout>
-            <section className="projects-section">
+            <section className="proyectos">
                 <h3 className="text-white text-center">Proyectos</h3>
                 <div className="projects-container xl:p-12 lg:p-12 xs:p-0 sm:p-2 2xl:w-10/12 mx-auto rounded-md sm:h-screen 2xl:h-screen">
                 <ul className="md:flex flex-wrap justify-center">

@@ -3,7 +3,7 @@
 const Footer = () => {
     return(
         
-        <footer className="footer p-4 w-full bg-gray-900 relative">
+        <footer className="footer p-4 w-full bg-gray-900 absolue bottom-0">
             <div className="container flex justify-around items-center mx-auto xs:block sm:block md:flex">
                 <div className="w-1/2 xs:w-full sm:w-full">
                     <ul className="medias flex justify-start xs:p-0 sm:p-0 md:p-2">
