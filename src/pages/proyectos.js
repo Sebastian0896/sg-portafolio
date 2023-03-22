@@ -8,7 +8,7 @@ export default function Proyectos(){
     const projectURL = ["https://portuaria.gob.do", "https://pwebrdvial.azurewebsites.net", "https://ucade.edu.do"]
     const projectsIcon = ["wordpress-30", "wordpress-30", "wordpress-30"]
     return(
-        <Layout>
+        <Layout title="Proyectos">
             <section className="proyectos">
                 <h3 className="text-white text-center">Proyectos</h3>
                 <div className="projects-container xl:p-12 lg:p-12 xs:p-0 sm:p-2 2xl:w-10/12 mx-auto rounded-md sm:h-screen 2xl:h-screen">
