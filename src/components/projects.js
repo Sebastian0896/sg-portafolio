@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Projects = () => {
     const projects = ["Autoridad Portuaria Dominicana", "Kateley Shop", "UCADE"]
-    const projectURL = ["https://portuaria.gob.do", "https://kateleryshop.com", "https://ucade.edu.do"]
+    const projectURL = ["https://portuaria.gob.do", "https://kateleyshop.com", "https://ucade.edu.do"]
     const projectsIcon = ["wordpress-30", "wordpress-30", "wordpress-30"]
     return(
         <section className="projects-section bg-gray-700">
