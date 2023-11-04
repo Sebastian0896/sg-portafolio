@@ -4,9 +4,9 @@ import Layout from "@/components/layout";
 
 
 export default function Proyectos(){
-    const projects = ["Autoridad Portuaria Dominicana", "Kateley Shop", "UCADE", "CPP"]
-    const projectURL = ["https://portuaria.gob.do", "https://kateleyshop.com", "https://ucade.edu.do", "https://cpp.gob.do"]
-    const projectsIcon = ["wordpress-30", "shopify-32", "wordpress-30", "wordpress-30"]
+    const projects = ["Autoridad Portuaria Dominicana", "Kateley Shop", "UCADE", "CPP", "RD VIAL"]
+    const projectURL = ["https://portuaria.gob.do", "https://kateleyshop.com", "https://ucade.edu.do", "https://cpp.gob.do", "https://rdvial.gob.do"]
+    const projectsIcon = ["wordpress-30", "shopify-32", "wordpress-30", "wordpress-30", "wordpress-30"]
     return(
         <Layout title="Proyectos">
             <section className="proyectos">
