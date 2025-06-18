@@ -36,7 +36,7 @@ export default function NavLink ({links, isOpen, setIsOpen}) {
             <FiX />
           </button>
 
-          <ul className="md:w-full flex flex-col items-center justify-center h-full md:flex-row md:gap-2">
+          <ul className="md:w-full flex flex-col items-center justify-center h-full md:flex-row md:gap-4">
             {links.map((link) => {
               return (
                 <li key={link.name}>

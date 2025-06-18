@@ -15,10 +15,6 @@
     .skills-section{
       /* background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%)); */
     }
-    .header li a:hover{
-      text-decoration: line-through;
-      @apply decoration-emerald-500
-    }
     .second-column{
       height: 100%;
     }
