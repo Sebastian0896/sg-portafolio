@@ -19,7 +19,7 @@ const Skills = () => {
 
 
     return(
-        <section className="skills-section bg-gray-900">
+        <section className="skills-section bg-zinc-900">
             <h3 className="text-center">Habilidades</h3>
             <div className="skills-container  p-6 flex justify-around items-center w-full xs:block sm:block md:flex">
                 <div className="bg-white md:w-1/4 sm:w-full  rounded-md relative before:content-[''] before:border-2 before:border-red-700 before:w-full before:rounded-tl-md before:rounded-tr-md before:absolute before:left-0 before:right-0 shadow-md">
@@ -37,7 +37,7 @@ const Skills = () => {
                 <div className="md:w-1/4 flex flex-col justify-between items-center second-column sm:w-full xs:my-1 sm:my-1">
                     <div className="bg-white w-full h-auto md:my-8 xs:my-1 sm:my-1 rounded-md relative before:content-[''] before:border-2 before:border-cyan-700 before:w-full before:rounded-tl-md before:rounded-tr-md before:absolute before:left-0 before:right-0 shadow-md">
                         <h4 className="px-4 py-2 text-white rounded-tr-md rounded-tl-md card-header">Frontend</h4>
-                        <div className="">
+                        <div>
                             <ul className="px-8 list-disc marker:text-cyan-700">
                                 {
                                     

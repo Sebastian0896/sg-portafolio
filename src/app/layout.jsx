@@ -1,13 +1,16 @@
-import Head from "next/head"
-import Footer from "./footer"
-import Header from "./header"
+//import Head from "next/head"
+import "./globals.css"
+import Footer from "@/components/Footer"
+import Header from "@/components/Header"
 
 
 export default function Layout({title, children}){
 
     return(
-        <>
-            <Head>
+    <html>
+        <body  cz-shortcut-listen="true">
+            
+            {/* <Head>
                 <title>{title}</title>
                 <meta charSet="UTF-8" />
                 <meta name="description" content="Sebastián González Rodríguez" />
@@ -15,12 +18,13 @@ export default function Layout({title, children}){
                 <meta name="author" content="Sebastián González Rodríguez" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/s-24.png" />
-            </Head>
+            </Head> */}
             <Header />
-            <main>
+            <main className="overflow-hidden">
                 { children }
             </main>
             <Footer />
-        </>
+        </body>
+    </html>
     )
 }
