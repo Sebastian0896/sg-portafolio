@@ -20,12 +20,20 @@ const About = () => {
             Desarrollador Web Frontend apasionado por el diseño limpio y funcional.
             </p>
             <div className="flex justify-center md:justify-start gap-4">
-            <Link href="/proyectos" className="px-6 py-3 bg-emerald-500 text-white hover:text-emerald-500 rounded-xl hover:bg-black hover:border-white hover:border transition">
+            <Link href="/proyectos" className="px-6 py-3 bg-emerald-500 text-black hover:text-emerald-500 rounded-xl hover:bg-black hover:border-white hover:border transition">
                 Ver proyectos
             </Link>
-            <Link href="/contacto" className="px-6 py-3 border border-white text-emerald-500 rounded-xl hover:bg-emerald-400 hover:text-white transition">
+            <Link href="/contacto" className="px-6 py-3 border border-white text-emerald-500 rounded-xl hover:border-emerald-500  transition">
                 Contacto
             </Link>
+             <Link href="/CV-Sebastian-Gonzalez.pdf" download target="_blank" title="Descargar CV"
+                className="inline-flex items-center gap-1  text-emerald-500 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" strokeLinejoin="round" stroke-width="2"
+                        d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
+                </svg>
+            </Link>
+
             </div>
         </div>
         </section>
