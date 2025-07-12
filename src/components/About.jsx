@@ -26,7 +26,7 @@ const About = () => {
             <Link href="/contacto" className="px-6 py-3 border border-white text-emerald-500 rounded-xl hover:border-emerald-500  transition">
                 Contacto
             </Link>
-             <Link href="/CVWeb-Sebastian-Gonzalez.pdf" download target="_blank" title="Descargar CV"
+             <Link href="/CVWeb-Sebastian-Gonzalez-Rodriguez.pdf" download target="_blank" title="Descargar CV"
                 className="inline-flex items-center gap-1  text-emerald-500 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" strokeLinejoin="round" stroke-width="2"
