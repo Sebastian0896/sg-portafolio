@@ -1,8 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap')
+layer(base);
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import '../theme.css';
 
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --breakpoint-xs: 300px;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility second-column {
+  height: 100%;
+}
 
 @layer components{
   html{
@@ -14,9 +42,6 @@
     } */
     .skills-section{
       /* background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%)); */
-    }
-    .second-column{
-      height: 100%;
     }
     h4{
       background: linear-gradient(145deg, hsl(213, 19%, 18%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(221, 80%, 22%), hsl(216, 12%, 8%), hsl(213, 19%, 18%));

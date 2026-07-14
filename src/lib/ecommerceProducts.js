@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: "chaqueta-urbana",
+    name: "Chaqueta Urbana",
+    price: 89,
+    category: "Abrigos",
+    image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "sneakers-classic",
+    name: "Sneakers Classic",
+    price: 64,
+    category: "Calzado",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "camisa-lino",
+    name: "Camisa de Lino",
+    price: 39,
+    category: "Camisas",
+    image: "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "bolso-cuero",
+    name: "Bolso de Cuero",
+    price: 76,
+    category: "Accesorios",
+    image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "reloj-minimal",
+    name: "Reloj Minimal",
+    price: 120,
+    category: "Accesorios",
+    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "gorra-urbana",
+    name: "Gorra Urbana",
+    price: 22,
+    category: "Accesorios",
+    image: "https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "jeans-slim",
+    name: "Jeans Slim",
+    price: 54,
+    category: "Pantalones",
+    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "sueter-oversize",
+    name: "Suéter Oversize",
+    price: 47,
+    category: "Abrigos",
+    image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=800&q=80",
+  },
+];

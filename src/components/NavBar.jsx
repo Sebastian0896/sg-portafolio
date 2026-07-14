@@ -5,6 +5,7 @@ import NavLink from './NavLink';
  const links = [
     { name: 'Acerca', href: '/acerca' },
     { name: 'Proyectos', href: '/proyectos'},
+    { name: 'Demos', href: '/demos' },
     { name: 'Contacto', href: '/contacto' },
 ];
 

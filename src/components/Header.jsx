@@ -21,7 +21,7 @@ const Header = () => {
     } 
 
     return(
-        <header className="w-screen p-4 bg-black header relative shadow-sm shadow-gray-200">
+        <header className="w-screen p-4 bg-black header relative shadow-xs shadow-gray-200">
             <div className="md:mx-auto w-full md:container flex justify-between items-center">
                 <h1 className="text-3xl font-bold w-1/4 text-center text-gray-500"><Link href="/" className="text-emerald-500 font-semibold">SGR</Link></h1>
                 <Navbar />

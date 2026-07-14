@@ -1,24 +1,40 @@
-//import Head from "next/head"
 import "./globals.css"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 
+const siteUrl = "https://portafoliosgr.com";
+const title = "Sebastián González Rodríguez — Desarrollador Web Frontend";
+const description = "Portafolio de Sebastián González Rodríguez, desarrollador web frontend especializado en Next.js, React y Tailwind CSS. Proyectos reales y demos de sitios web modernos para distintos mercados.";
 
-export default function Layout({title, children}){
+export const metadata = {
+    metadataBase: new URL(siteUrl),
+    title: {
+        default: title,
+        template: "%s | Sebastián González R.",
+    },
+    description,
+    keywords: ["desarrollador web", "desarrollador frontend", "Next.js", "React", "Tailwind CSS", "Sebastián González Rodríguez", "República Dominicana"],
+    authors: [{ name: "Sebastián González Rodríguez" }],
+    openGraph: {
+        type: "website",
+        locale: "es_DO",
+        url: siteUrl,
+        siteName: "Sebastián González R. — Portafolio",
+        title,
+        description,
+    },
+    twitter: {
+        card: "summary_large_image",
+        title,
+        description,
+    },
+}
+
+export default function Layout({ children }){
 
     return(
-    <html>
-        <body  cz-shortcut-listen="true">
-            
-            {/* <Head>
-                <title>{title}</title>
-                <meta charSet="UTF-8" />
-                <meta name="description" content="Sebastián González Rodríguez" />
-                <meta name="keywords" content="portafolio, sebastián gonzález rodríguez, frontend, backend, tools, html5" />
-                <meta name="author" content="Sebastián González Rodríguez" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/s-24.png" />
-            </Head> */}
+    <html lang="es">
+        <body>
             <Header />
             <main className="overflow-hidden">
                 { children }

@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: "Contacto",
+    description: "Ponte en contacto con Sebastián González Rodríguez para tu próximo proyecto web.",
+};
+
 export default function Contacto(){
 
     return(

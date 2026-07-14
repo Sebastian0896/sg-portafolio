@@ -12,14 +12,14 @@ const Projects = () => {
                <ul className="md:flex flex-wrap justify-center">
                 {
                     projects.map((p, key) => (
-                        <li key={key} className="my-2 p-4 flex flex-col justify-center items-center shadow-sm shadow-emerald-500 m-2 text-gray-500 xs:w-full sm:w-full md:w-1/4 xs:h-[200px] sm:h-[200px] md:h-[200px] rounded-md bg-gray-900 hover:bg-emerald-500 hover:text-white transition-colors"><a href={projectURL[key]} target="_blank" rel="noopener nofollow" className="text-2xl text-center">{projects[key]}</a><p className="">{/* <Image src={`/images/${projectsIcon[key]}.png`} width={30} height={30} alt="icon" /> */}{projectsIcon[key]}</p>
+                        <li key={key} className="my-2 p-4 flex flex-col justify-center items-center shadow-xs shadow-emerald-500 m-2 text-gray-500 xs:w-full sm:w-full md:w-1/4 xs:h-[200px] sm:h-[200px] md:h-[200px] rounded-md bg-gray-900 hover:bg-emerald-500 hover:text-white transition-colors"><a href={projectURL[key]} target="_blank" rel="noopener nofollow" className="text-2xl text-center">{projects[key]}</a><p className="">{/* <Image src={`/images/${projectsIcon[key]}.png`} width={30} height={30} alt="icon" /> */}{projectsIcon[key]}</p>
                             
                         </li>
                     ))
                 }
                </ul>
               <div className="flex justify-center">
-                <button className="rounded-md bg-gray-900 w-[6rem] p-2 hover:bg-black transition-colors"><Link href="/proyectos" className="text-emerald-500">Todos</Link></button>
+                <button className="rounded-md bg-gray-900 w-24 p-2 hover:bg-black transition-colors"><Link href="/proyectos" className="text-emerald-500">Todos</Link></button>
               </div>
             </div>
 

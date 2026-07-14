@@ -1,6 +1,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata = {
+    title: "Acerca de mí",
+    description: "Conoce más sobre Sebastián González Rodríguez, desarrollador web frontend con más de 3 años de experiencia creando experiencias digitales limpias y funcionales.",
+};
+
 export default function Acerca(){
 
     return(
