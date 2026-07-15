@@ -33,7 +33,7 @@ export default function Hero() {
           </a>
           <a
             href="#clases"
-            className={cn(buttonVariants({ variant: "outline", size: "lg" }), "border-white/20 text-white hover:bg-white/10")}
+            className={cn(buttonVariants({ variant: "outline", size: "lg" }), "border-white/20 bg-transparent text-white hover:bg-white/10")}
           >
             Ver clases
           </a>
