@@ -6,7 +6,7 @@ import { demos } from "@/lib/demos";
 import AlcanceProyecto from "@/components/AlcanceProyecto";
 
 export const metadata = {
-  title: "Demos | Sebastián González Rodríguez",
+  title: "Demos",
   description: "Ejemplos de sitios web modernos para distintos mercados: restaurantes, salud, e-commerce, inmobiliarias y más.",
 };
 
@@ -55,6 +55,19 @@ export default function DemosPage() {
             </Card>
           </Link>
         ))}
+      </div>
+
+      <div className="mx-auto mt-16 max-w-2xl rounded-2xl bg-neutral-900 p-8 text-center ring-1 ring-white/10">
+        <p className="text-xl font-semibold text-white">¿No ves tu tipo de negocio aquí?</p>
+        <p className="mt-2 text-gray-400">
+          Estos son solo ejemplos de lo que puedo desarrollar — cuéntame qué necesita tu negocio y lo construimos juntos.
+        </p>
+        <Link
+          href="/contacto"
+          className="mt-6 inline-block rounded-xl bg-emerald-500 px-6 py-3 text-black transition hover:border hover:border-white hover:bg-black hover:text-emerald-500"
+        >
+          Hablemos de tu proyecto
+        </Link>
       </div>
     </section>
   );
